@@ -17,9 +17,13 @@ const distanceFromLast = (x, y) => {
 window.onmousemove = e => {
     if (distanceFromLast(e.clientX, e.clientY) > 180){
     const lead = images[globalIndex % images.length];
+    const tail = images[(globalIndex-5) % images.length];
 
     activate(lead, e.clientX, e.clientY);
 
+    if(tail){
+        tail.dataset.status = "inactive"
+    }
     globalIndex++
     }
     if (document.getElementById("inicio").style.display==="none"){
