@@ -22,6 +22,10 @@ window.onmousemove = e => {
 
     globalIndex++
     }
+    if (document.getElementById("inicio").style.display==="none"){
+
+    }
+
 }
 
 const start =()=>{
