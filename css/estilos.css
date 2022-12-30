@@ -1,0 +1,60 @@
+
+
+.backgrnd{
+    background: #1b1e21;
+    overflow: hidden;
+}
+
+.backgrndstart{
+    background: #1b1e21;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.image{
+    width: 25vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.image[data-status="inactive"]{
+    display: none;
+}
+.image[data-status="active"]{
+    display: block;
+}
+
+.butao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    background-color: #FFE0AA;
+    border: none;
+    color: #1b1e21;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+    transition: all 0.2s ease-out;
+}
+
+.butao:hover {
+    background-color: #FCCE7E;
+    transform: translate(-50%,-65%);
+    box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.full-web{
+    display: none;
+}
+
+.text{
+    background: url('../assets/giphy1.gif');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
