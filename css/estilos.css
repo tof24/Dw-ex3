@@ -200,3 +200,40 @@
     background: #ffeec2;
     color: black;
 }
+
+.imagemm:hover{
+    border: solid #574c25;
+    border-width: 0 2px;
+    opacity: 0.8;
+}
+
+.linktext{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.linktext:hover{
+    color: #383862;
+    text-decoration: none;
+
+}
+
+.seta{
+    position: absolute;
+    transition: all 0.2s ease-out;
+}
+
+.seta:hover{
+    transform: translateX(-10px)
+}
+
+.seta2{
+    fill: #8d3131;
+    position: absolute;
+    transition: all 0.2s ease-out;
+}
+
+.seta2:hover{
+    transform: translateX(-10px)
+}
